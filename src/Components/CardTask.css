@@ -1,0 +1,129 @@
+.commonTodayTask{
+    width: 690px;
+    height: 291px;
+    flex-shrink: 0;
+    border-radius: 14px;
+background: rgba(255, 255, 255, 0.34);
+padding:20px 20px 10px;
+box-sizing: border-box;
+
+
+}
+
+
+.commonCardTask{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.content{
+display: flex;
+flex-direction: row;
+margin: 5px;
+gap:50px;
+}
+.group{
+display: flex;
+flex-direction: row;
+gap:5px;
+}
+
+.ten{
+display: flex;
+height: 14px;
+width: 12px;
+padding: 4px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 17px;
+background: rgba(43, 92, 230, 0.10);
+}
+
+.tenText{
+color: #2B5CE6;
+font-family: Aeonik Pro TRIAL;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.1px;
+}
+
+
+.textLast{
+color: #060606;
+font-family: Aeonik Pro TRIAL;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+/* line-height: normal; */
+letter-spacing: 0.14px;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5px;
+}
+.important{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.Approved{
+display: inline-flex;
+padding: 3px 7px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 20px;
+background: rgba(26, 147, 46, 0.18);
+box-sizing: border-box;
+}
+
+.review{
+display: inline-flex;
+padding: 3px 7px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 20px;
+background: rgba(238, 32, 28, 0.18);
+}
+.onGoing{
+display: inline-flex;
+padding: 3px 7px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 20px;
+background: rgba(230, 95, 43, 0.18);
+}
+
+.todayTask{
+color: #060606;
+font-family: Aeonik Pro TRIAL;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.16px;
+padding-bottom: 15px;
+}
+
+.baseline{
+margin-top: -21px;
+margin-bottom: 10px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    width: 1120px;
+    margin-left: 10px;
+    margin-top: 0px;
+
+}

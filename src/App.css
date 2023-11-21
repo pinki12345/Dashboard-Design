@@ -1,0 +1,15 @@
+
+.xyzw{
+ width: 1440px;
+height: 1080px;
+
+display: inline-flex;
+height: 1080px;
+/* padding: 140px 46px 0px 30px; */
+flex-direction:row;
+align-items: center;
+/* gap: 60px; */
+flex-shrink: 0;
+box-sizing: border-box;
+/* padding-left: 50px; */
+}

@@ -1,0 +1,263 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 1120px;
+    height: 196px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.grid-item{
+display: flex;
+width: 268px;
+height: 196px;
+padding: 18px 43px 24px 18px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+border-radius: 14px;
+background: rgba(255, 255, 255, 0.34);
+box-sizing: border-box;
+}
+.data{
+width: 174px;
+height: 148px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+box-sizing: border-box;
+}
+
+.icon1{
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 26px;
+    background: #D398E7;
+}
+.text{
+color: #797979;
+font-family: Aeonik Pro TRIAL;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text-number{
+    color: #060606;
+font-family: Aeonik Pro TRIAL;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.increase{
+color: #060606;
+font-family: Aeonik Pro TRIAL;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px; /* 120% */
+letter-spacing: 0.2px;
+}
+.icon11{
+    width: 10.792px;
+    height: 7.957px;
+    /* transform: rotate(-45deg); */
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-top: -5px;
+}
+
+
+
+.common{
+    display: inline-flex;
+    flex-direction: row;
+    gap:10px;
+
+}
+
+
+.icon2{
+display: flex;
+padding: 12px;
+align-items: center;
+gap: 10px;
+border-radius: 26px;
+background: #E89271;
+}
+.textProject{
+color: #797979;
+font-family: Aeonik Pro TRIAL;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.number{
+color: #060606;
+font-family: Aeonik Pro TRIAL;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.icon22{
+width: 10.792px;
+height: 7.957px;
+/* transform: rotate(45deg); */
+flex-shrink: 0;
+margin-top: -5px;
+}
+.textpara{
+    color: #060606;
+font-family: Aeonik Pro TRIAL;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px; /* 120% */
+letter-spacing: 0.2px;
+}
+
+
+.icon3{
+display: flex;
+padding: 12px;
+align-items: center;
+gap: 10px;
+border-radius: 26px;
+background: #70A1E5;
+}
+.text3{
+color: #797979;
+font-family: Aeonik Pro TRIAL;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.number3{
+color: #060606;
+font-family: Aeonik Pro TRIAL;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.icon33{
+width: 10.792px;
+height: 7.957px;
+transform: rotate(-45deg);
+flex-shrink: 0;
+margin-top: -5px;
+}
+.text33{
+color: #060606;
+font-family: Aeonik Pro TRIAL;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px; /* 120% */
+letter-spacing: 0.2px;
+}
+
+
+.icon4{
+display: flex;
+padding: 12px;
+align-items: center;
+gap: 10px;
+border-radius: 26px;
+background: #F0C274;
+}
+.text4{
+color: #797979;
+font-family: Aeonik Pro TRIAL;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.number4{
+color: #060606;
+font-family: Aeonik Pro TRIAL;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.small{
+color: #060606;
+font-family: Aeonik Pro TRIAL;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.64px;
+}
+.icon44{
+width: 10.792px;
+height: 7.957px;
+transform: rotate(-45deg);
+flex-shrink: 0;
+}
+.text44{
+ color: #060606;
+font-family: Aeonik Pro TRIAL;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px; /* 120% */
+letter-spacing: 0.2px;
+}
+
+
+.days{
+display: flex;
+width: 135px;
+height: 34px;
+padding: 2px 14px;
+align-items: center;
+gap: 30px;
+border-radius: 17px;
+background: #FFF;
+}
+.textDyas{
+color: #060606;
+font-family: Aeonik Pro TRIAL;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.14px;
+}
+.iconDays{
+width: 14px;
+height: 14px;
+/* transform: rotate(-90deg); */
+}
+.overview{
+color: #060606;
+font-family: Aeonik Pro TRIAL;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.22px;
+}
+.CommonBox{
+display: flex;
+width: 1120px;
+padding: 10px;
+justify-content: space-between;
+align-items: center;
+box-sizing: border-box;
+}
